@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/first_tab"
+        android:enabled="true"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="main"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/second_tab"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/third_tab"
+        android:enabled="true"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="chat"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/fourth_tab"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="basket"
+        app:showAsAction="always"></item>
+
+</menu>
