@@ -1,12 +1,29 @@
 package org.techtown.foodle;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toolbar;
+
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.action_menu, menu) ;
+        return true;
+    }
+
     MainFragment mainFragment;
     SearchFragment searchFragment;
     ChatFragment chatFragment;
@@ -44,5 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+
     }
+
 }
