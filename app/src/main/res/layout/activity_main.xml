@@ -23,10 +23,9 @@
         app:itemIconTint="#FFFFFF"
         app:itemTextColor="#f6d170"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/bottom_menu">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:menu="@menu/bottom_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
-    <include  layout="@layout/toolbar_main"/>
+    <include layout="@layout/toolbar_main" />
 
 
 </RelativeLayout>
