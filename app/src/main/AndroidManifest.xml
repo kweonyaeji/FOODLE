@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +20,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".groupbuyingActivity"/>
+        <activity android:name=".groupBuyingActivity"/>
+        <activity android:name=".loginActivity"/>
+        <activity android:name=".sharingFoodActivity"/>
+        <activity android:name=".ecoMarketActivity"/>
+        <activity android:name=".ecoMapActivity"/>
     </application>
 
 </manifest>
