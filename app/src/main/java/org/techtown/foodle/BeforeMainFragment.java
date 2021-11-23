@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class MainFragment extends Fragment {
+public class BeforeMainFragment extends Fragment {
 
     private View view;
     private Button button1; //마이페이지 버튼(현재는 로그인화면으로 연동시켜놓음)
@@ -21,7 +21,7 @@ public class MainFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        view = inflater.inflate(R.layout.fragment_main, container, false);
+        view = inflater.inflate(R.layout.beforefragment_main, container, false);
 
         button1 = view.findViewById(R.id.button1);
         button2 = view.findViewById(R.id.button2);

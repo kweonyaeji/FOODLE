@@ -25,6 +25,8 @@
         <activity android:name=".sharingFoodActivity"/>
         <activity android:name=".ecoMarketActivity"/>
         <activity android:name=".ecoMapActivity"/>
+
+
     </application>
 
 </manifest>

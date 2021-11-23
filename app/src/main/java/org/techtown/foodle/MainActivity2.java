@@ -1,23 +1,22 @@
 package org.techtown.foodle;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.action_menu, menu) ;
         return true;
     }
 
-    BeforeMainFragment beforemainFragment;
+    AfterMainFragment aftermainFragment;
     SearchFragment searchFragment;
     ChatFragment chatFragment;
     BasketFragment basketFragment;
@@ -27,19 +26,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        beforemainFragment = new BeforeMainFragment();
+        aftermainFragment = new AfterMainFragment();
         searchFragment = new SearchFragment();
         chatFragment = new ChatFragment();
         basketFragment = new BasketFragment();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, beforemainFragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, aftermainFragment).commit();
         BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
         bottom_menu.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch(item.getItemId()) {
                     case R.id.first_tab:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, beforemainFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, aftermainFragment).commit();
                         return true;
                     case R.id.second_tab:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, searchFragment).commit();
@@ -57,5 +56,4 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
 }
