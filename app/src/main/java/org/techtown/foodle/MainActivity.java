@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    BeforeMainFragment beforemainFragment;
+    MainFragment mainFragment;
     SearchFragment searchFragment;
     ChatFragment chatFragment;
     BasketFragment basketFragment;
@@ -27,19 +27,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        beforemainFragment = new BeforeMainFragment();
+        mainFragment = new MainFragment();
         searchFragment = new SearchFragment();
         chatFragment = new ChatFragment();
         basketFragment = new BasketFragment();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, beforemainFragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
         BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
         bottom_menu.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch(item.getItemId()) {
                     case R.id.first_tab:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, beforemainFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
                         return true;
                     case R.id.second_tab:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, searchFragment).commit();
