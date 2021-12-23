@@ -17,7 +17,7 @@ public class MainFragment extends Fragment {
     private Button button2; //공동구매 버튼
     private Button button3; //식자재나눔 버튼
     private Button button4; //환경마켓 버튼
-    private Button button5; //환경지도 버튼
+    private Button button5; //라스트푸들 버튼
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -32,7 +32,7 @@ public class MainFragment extends Fragment {
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),loginActivity.class);
+                Intent intent = new Intent(getActivity(),MyPage.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +64,7 @@ public class MainFragment extends Fragment {
         button5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),ecoMapActivity.class);
+                Intent intent = new Intent(getActivity(), LastFoodleActivity.class);
                 startActivity(intent);
             }
         });

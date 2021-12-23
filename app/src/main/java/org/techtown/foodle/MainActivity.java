@@ -1,61 +1,40 @@
 package org.techtown.foodle;
 
-import androidx.annotation.NonNull;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 public class MainActivity extends AppCompatActivity {
+    Button button_login;
+    Button button_register;
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.action_menu, menu) ;
-        return true;
-    }
-
-    MainFragment mainFragment;
-    SearchFragment searchFragment;
-    ChatFragment chatFragment;
-    BasketFragment basketFragment;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login_main);
 
-        mainFragment = new MainFragment();
-        searchFragment = new SearchFragment();
-        chatFragment = new ChatFragment();
-        basketFragment = new BasketFragment();
+        button_login = (Button) findViewById(R.id.btn_login);
+        button_register = (Button) findViewById(R.id.register_button);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
-        BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
-        bottom_menu.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        button_login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch(item.getItemId()) {
-                    case R.id.first_tab:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
-                        return true;
-                    case R.id.second_tab:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, searchFragment).commit();
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,PublicMain.class);
+                startActivity(intent);
 
-                        return true;
-                    case R.id.third_tab:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, chatFragment).commit();
-                        return true;
-                    case R.id.fourth_tab:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, basketFragment).commit();
-                        return true;
-                }
-                return false;
             }
         });
 
-    }
+        button_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ContractAgree.class);
+                startActivity(intent);
 
+            }
+        });
+    }
 }

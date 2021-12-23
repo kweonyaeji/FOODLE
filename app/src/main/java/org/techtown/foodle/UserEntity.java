@@ -18,3 +18,4 @@ class UserEntity {
     public String nickname;
 
 }
+

@@ -6,13 +6,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_menu"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E4D9AA"
+            app:itemIconTint="#A9A9A9"
+            app:itemTextColor="#696969"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_menu">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_menu"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:background="#E4D9AA"
+                app:itemIconTint="#A9A9A9"
+                app:itemTextColor="#696969"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/bottom_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <include
+            layout="@layout/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
     <Button
         android:id="@+id/button7"
         android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
         android:text="과일 채소 샐러드"
+        android:textColor="#3E3D3D"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toTopOf="@+id/textView18" />
 
@@ -21,7 +66,9 @@
         android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
         android:text="냉장 냉동 간편요리"
+        android:textColor="#3E3D3D"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toEndOf="@+id/button7"
@@ -33,7 +80,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
         android:text="정육 수산 계란"
+        android:textColor="#3E3D3D"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
 
@@ -43,7 +92,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
         android:text="빵 시리얼 잼"
+        android:textColor="#3E3D3D"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/button9"
@@ -55,7 +106,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
         android:text="우유 유제품"
+        android:textColor="#3E3D3D"
         app:layout_constraintBottom_toBottomOf="@+id/textView18"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/button9"
@@ -67,7 +120,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
         android:text="생수 / 음료"
+        android:textColor="#3E3D3D"
         app:layout_constraintBottom_toBottomOf="@+id/textView18"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
         app:layout_constraintHorizontal_bias="0.0"
@@ -100,7 +155,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/box"
-            android:orientation="vertical" />
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:id="@+id/listview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
 
     </ScrollView>
 

@@ -9,23 +9,25 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/container">
-    </FrameLayout>
+        android:layout_height="match_parent"></FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_menu"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_alignParentBottom="true"
-        android:background="#345E86"
-        app:itemIconTint="#FFFFFF"
-        app:itemTextColor="#f6d170"
+        android:background="#E4D9AA"
+        app:itemIconTint="#A9A9A9"
+        app:itemTextColor="#696969"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
-    <include layout="@layout/toolbar_main" />
+    <include
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="71dp" />
 
 
 </RelativeLayout>
