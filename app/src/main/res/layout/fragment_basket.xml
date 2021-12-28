@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".BasketFragment">
+    android:orientation="vertical"
+    tools:context=".BasketFragment" >
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="373dp"
-        android:layout_marginBottom="327dp"
-        android:text="찜리스트화면입니다"
+        android:id="@+id/textView22"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:drawableLeft="@drawable/logo_resize"
+        android:drawableRight="@drawable/logo_resize"
+        android:gravity="center"
+        android:lines="1"
+        android:text="찜 리스트"
         android:textColor="#000000"
-        android:textSize="24sp" />
-</RelativeLayout>
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <FrameLayout
+        android:id="@+id/baslist_frag"
+        android:layout_width="398dp"
+        android:layout_height="535dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/box">
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -56,7 +56,7 @@ public class MainFragment extends Fragment {
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),ecoMarketActivity.class);
+                Intent intent = new Intent(getActivity(),ecoMapActivity.class);
                 startActivity(intent);
             }
         });

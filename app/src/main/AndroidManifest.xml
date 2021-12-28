@@ -19,11 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Welcome_1"/>
+        <activity android:name=".Welcome_2"/>
+        <activity android:name=".Welcome_3"/>
+        <activity android:name=".Welcome_4"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".PublicMain"/>
         <activity android:name=".groupBuyingActivity"/>
         <activity android:name=".sharingFoodActivity"/>
-        <activity android:name=".ecoMarketActivity"/>
+        <activity android:name=".ecoMapActivity"/>
         <activity android:name=".LastFoodleActivity"/>
         <activity android:name=".ContractAgree"/>
         <activity android:name=".UserInputInfo"/>

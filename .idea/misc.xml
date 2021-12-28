@@ -3,25 +3,63 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/banana_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/bat_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/bread_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/cheese_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/donut_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/green_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/hampizza_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/honey_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/hotdog_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/kimbab_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/melon_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/miso_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/olive_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/orangejuice_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/pimang_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/rice_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/salad_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/scon_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/shrimp_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/sparking_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/squid_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/strawberry_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/water_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/wel1_resize.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable-v24/yangbaechu_resize.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/armysoup_resize.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/bakonpizza_resize.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/box.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/box2.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/button_round.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/cheese_resize.xml" value="0.1361111111111111" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/cucumber_resize.xml" value="0.16018518518518518" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/kiwii_resize.xml" value="0.1484375" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/logo_resize.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/mandarin_resize.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/map_resize.xml" value="0.121875" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/pasta_resize.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/potato_resize.xml" value="0.16018518518518518" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/seeweed_resize.xml" value="0.16018518518518518" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/sweetpotato_resize.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/drawable/yogurt_resize.xml" value="0.1361111111111111" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_intro.xml" value="0.17916666666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_list.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_maps_eco.xml" value="0.16458333333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_userinput_info.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/afterfragment_main.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/beforefragment_main.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/chatinglistview_item.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/contract_agree_main.xml" value="0.16354166666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/custom_actionbar.xml" value="0.1" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/ecomap_main.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/ecomap_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/ecomarket_main.xml" value="0.15715579710144928" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_after_main.xml" value="0.13229166666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_basket.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_chat.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_green.xml" value="0.5" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_pink.xml" value="0.17753623188405798" />
@@ -29,6 +67,8 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/fragment_yellow.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/groupbuying_list.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/groupbuying_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/lastfoodle_list.xml" value="0.3678646934460888" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/lastfoodle_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/login.xml" value="0.15715579710144928" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/login_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/mypage.xml" value="0.13229166666666667" />
@@ -36,6 +76,11 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/sharing_list.xml" value="0.13229166666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/sharingfood_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/toolbar_main.xml" value="0.3962962962962963" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/welcome_slide1.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/welcome_slide2.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/welcome_slide3.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/welcome_slide4.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/layout/welcome_slide5.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/menu/action_menu.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/FOODLE/app/src/main/res/menu/bottom_menu.xml" value="0.3333333333333333" />
       </map>

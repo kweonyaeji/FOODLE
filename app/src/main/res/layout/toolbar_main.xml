@@ -10,18 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="-285dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="4dp"
-            app:srcCompat="@drawable/logo" />
-
         <TextView
             android:id="@+id/tv_logo"
             android:layout_width="wrap_content"
@@ -30,10 +18,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="-81dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="81dp"
-            android:layout_marginBottom="9dp"
+            android:layout_marginStart="-91dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="FOODLE"
             android:textColor="@color/black"
@@ -41,16 +29,16 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/user"
-            android:layout_width="39dp"
-            android:layout_height="39dp"
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="362dp"
-            android:layout_marginTop="7dp"
+            android:layout_marginStart="-306dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="4dp"
-            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+            app:srcCompat="@drawable/logo" />
 
     </RelativeLayout>
 </androidx.appcompat.widget.Toolbar>
