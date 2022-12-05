@@ -22,6 +22,7 @@
         android:drawableRight="@drawable/logo_resize"
         android:gravity="center"
         android:lines="1"
+        android:fontFamily="@font/sub_bold"
         android:text="라스트푸들"
         android:textColor="#000000"
         android:textSize="34sp"

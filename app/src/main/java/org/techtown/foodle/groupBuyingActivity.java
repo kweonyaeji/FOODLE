@@ -51,8 +51,6 @@ public class groupBuyingActivity extends AppCompatActivity {
                 " [고메]\n 올바른 핫도그 5개입 10개 묶음", " 인원: 7명/25명 | 가격: 4,200원/개") ;
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.olive_resize),
                 " [델파파]\n 퓨어 올리브유 1L 5개 묶음", " 인원: 4명/15명 | 가격: 9,980원/개p") ;
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.rice_resize),
-                " 상품: 우리가족 살맛나는 쌀\n 20kg 10개 묶음", " 인원: 6명/10명 | 가격: 54,000원/개") ;
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.yogurt_resize),
                 " [서울우유]\n 요거트 65ml 20개입 20개 묶음", " 인원: 47명/50명 | 가격: 2,240원/개") ;
 

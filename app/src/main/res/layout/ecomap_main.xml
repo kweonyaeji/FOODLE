@@ -26,8 +26,10 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="15dp"
             android:background="#FFFFFF"
+            android:fontFamily="@font/sub_reg"
             android:text="종이팩 수거함"
             android:textColor="#3E3D3D"
+            android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,8 +40,10 @@
             android:layout_marginTop="15dp"
             android:layout_marginEnd="20dp"
             android:background="#FFFFFF"
+            android:fontFamily="@font/sub_reg"
             android:text="아이스팩 수거함"
             android:textColor="#3E3D3D"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,8 +55,10 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:background="#FFFFFF"
+            android:fontFamily="@font/sub_reg"
             android:text="제로웨이스트 샵"
             android:textColor="#3E3D3D"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button23"
@@ -66,8 +72,10 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:background="#FFFFFF"
+            android:fontFamily="@font/sub_reg"
             android:text="친환경카페 / 음식점"
             android:textColor="#3E3D3D"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button24"

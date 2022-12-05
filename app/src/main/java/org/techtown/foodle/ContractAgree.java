@@ -21,7 +21,7 @@ public class ContractAgree extends AppCompatActivity {
         btn_login2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ContractAgree.this, UserInputInfo.class);
+                Intent intent = new Intent(ContractAgree.this, InfoChoice.class);
                 startActivity(intent);
 
             }

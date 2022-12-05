@@ -1,12 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".ChatFragment">
+    android:orientation="vertical"
+    tools:context=".ChatFragment" >
 
-    <ListView
+    <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-</RelativeLayout>
+        android:layout_height="6dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/box" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/sub_bold"
+        android:gravity="center"
+        android:text="설렁탕 비비고 코스트코"
+        android:textColor="#272727"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sub_reg"
+        android:gravity="center"
+        android:paddingTop="3dp"
+        android:text="2300원" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:background="#E3E1E1"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:lineSpacingExtra="5dp"
+        android:fontFamily="@font/sub_reg"
+        android:text="직거래 및 택배로 발생하는 피해는 FOODLE이 책임지지 않습니다.\n욕설, 비방 및 음란물이 포함된 내용은 신고될 수 있으며\n불이익을 받을 수 있습니다." />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingStart="15dp"
+            android:paddingTop="5dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp"
+            android:fontFamily="@font/sub_reg"
+            android:text="2021년 12월 30일"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:src="@drawable/b1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:src="@drawable/b2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
+
+
+
+
