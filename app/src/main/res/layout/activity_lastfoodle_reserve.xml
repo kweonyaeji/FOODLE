@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="71dp" />
+
+    <TextView
+        android:id="@+id/reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/tit_mid"
+        android:text="예약페이지"
+        android:textColor="#000000"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/normal"
+        android:textSize="16sp"
+        android:text="닉네임: 고독한양파" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/normal"
+        android:textSize="16sp"
+        android:text="상호명: 참맛감자탕" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/normal"
+        android:textSize="16sp"
+        android:text="상품명: 뼈해장국" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="수량선택"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textSize="16sp"
+            android:fontFamily="@font/normal"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:textSize="16sp"
+            android:text="개" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/normal"
+        android:text="시간선택"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TimePicker
+        android:layout_width="325dp"
+        android:layout_height="156dp"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/btn_reserved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1C40F"
+        android:fontFamily="@font/normal"
+        android:text="예약확정하기"
+        android:layout_marginTop="190dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

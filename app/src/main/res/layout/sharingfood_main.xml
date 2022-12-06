@@ -43,6 +43,7 @@
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottom_menu"
                 android:layout_width="match_parent"
+                android:fontFamily="@font/light"
                 android:layout_height="75dp"
                 android:layout_alignParentBottom="true"
                 android:background="#E4D9AA"

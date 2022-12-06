@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="71dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:background="#BAB7B7"
+            app:srcCompat="@drawable/bonesoup" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/normal"
+            android:text="상품명: 뼈해장국"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="상호명: 참맛감자탕"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="주소: 서울 노원구 동일로 192길 41"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="할인가격: 6,500원"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="수량: 3개"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="마감시간: 22:00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/normal"
+            android:text="상세내용"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/normal"
+            android:text="공릉역에서 과기대방면으로 조금 위로 걸어오면 됩니다. 뼈해장국 3인분 남았습니다. 전화 예약 X"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="67dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="5dp"
+                android:background="#F1C40F"
+                android:fontFamily="@font/normal"
+                android:text="♡ 찜"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="99dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="5dp"
+                android:background="#F1C40F"
+                android:fontFamily="@font/normal"
+                android:text="전화걸기"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_reserve"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="#F1C40F"
+                android:fontFamily="@font/normal"
+                android:text="예약하기"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

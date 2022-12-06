@@ -116,6 +116,7 @@
             android:layout_width="410dp"
             android:layout_height="74dp"
             android:layout_alignParentBottom="true"
+            android:fontFamily="@font/light"
             android:background="#E4D9AA"
             app:itemIconTint="#A9A9A9"
             app:itemTextColor="#696969"

@@ -31,7 +31,7 @@ public class InfoChoice extends AppCompatActivity {
 
         choice_chef.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(InfoChoice.this, RegisterActivity.class);
+                Intent intent = new Intent(InfoChoice.this, RegisterChefActivity.class);
                 startActivity(intent);
 
             }

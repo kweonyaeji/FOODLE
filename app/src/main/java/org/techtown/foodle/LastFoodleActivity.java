@@ -5,6 +5,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
@@ -19,13 +21,34 @@ public class LastFoodleActivity extends AppCompatActivity {
     static final String[] LIST_MENU = {"LIST1", "LIST2", "LIST3", "LIST4", "LIST5", "LIST6", "LIST7", "LIST8", "LIST9"} ;
 
 
+    ImageButton btn_write;
+    Button btn_put;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lastfoodle_main);
-
+        btn_write = (ImageButton) findViewById(R.id.btn_write);
+        btn_put = (Button) findViewById(R.id.btn_put);
         //ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, LIST_MENU) ;
 
+
+        btn_write.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LastFoodleActivity.this, LastFoodleWrite.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btn_put.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LastFoodleActivity.this, LastFoodleDetailPage.class);
+                startActivity(intent);
+
+            }
+        });
         ListView listview;
         LastListViewAdapter adapter;
 
@@ -37,6 +60,9 @@ public class LastFoodleActivity extends AppCompatActivity {
         listview.setAdapter(adapter);
 
         // 첫 번째 아이템 추가.
+        adapter.addItem("참맛감자탕", "130m",
+                ContextCompat.getDrawable(this, R.drawable.bonesoup_resize),
+                "뼈해장국", "정가: 9,000원","→ 할인가: 6,500원") ;
         adapter.addItem("홍가네 부대찌개", "383m",
                 ContextCompat.getDrawable(this, R.drawable.armysoup_resize),
                 "우삼겹 부대세트", "정가:23,000원","→ 할인가: 17,000원") ;

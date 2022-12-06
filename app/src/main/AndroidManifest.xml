@@ -35,7 +35,11 @@
         <activity android:name=".ContractAgree"/>
         <activity android:name=".UserInputInfo"/>
         <activity android:name=".RegisterActivity"/>
+        <activity android:name=".RegisterChefActivity"/>
         <activity android:name=".InfoChoice"/>
+        <activity android:name=".LastFoodleWrite"/>
+        <activity android:name=".LastFoodleDetailPage"/>
+        <activity android:name=".LastFoodleReserve"/>
         <activity android:name=".MyPage"/>
 
 
